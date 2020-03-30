@@ -74,9 +74,9 @@ che Mattei è pronto a lavorare come un bambino africano sotto i tuoi ordini.
 
 
 ```node
-    Mattei.request("https://www.npmjs.com/package/request").then(page => {
-      //...
-    })
+Mattei.request("https://www.npmjs.com/package/request").then(page => {
+  //...
+})
 ```
 Qua Mattei sta facendo un request a una pagina web data come parametro. 
 Allora il risultato (che in questo caso io l'ho chiamato page ma posso chiamarlo anche in altro modo) 
@@ -92,9 +92,9 @@ console.log(page);
 Quindi: 
 
 ```node
-    Mattei.request("https://www.npmjs.com/package/request").then(page => {
-      console.log(page);
-    })
+Mattei.request("https://www.npmjs.com/package/request").then(page => {
+  console.log(page);
+})
 ```
 
 La parte del catch al momento la tralascio, tu mettila e basta e non rompere i coglioni!
